@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vn">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lưu trữ xanh</title>
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
 </head>
 <body>
-    <h1>Sech tan bao</h1>
-</body>
+<div class="header">
+    <div class="header-function">
+        <div class="header-function__items"> Donate</div>
+        <a href="" class="header-function__items">Góp ý</a>
+       
+    </div>
+    <div class="nav-bar" id="myTopnav">
+        <div class="nav-bar__leftside">
+            <a href="index.html" class="nav-bar__items"><div>  Home </div></a>
+            <a href="studentinfo.html" class="nav-bar__items"><div>  Học sinh </div></a>
+            <a href="story.html" class="nav-bar__items"><div>  Cốt truyện </div></a>
+            <a href="gacha.html" class="nav-bar__items"><div> Gacha </div></a>
+        </div>
+        <div class="nav-bar__rightside">
+            <a>
+            <div class="nav-icon nav-bar__items" >
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </a>
+            <div class="nav-bar__search"></div>
+        </div>
+    </div>    
+    
+</div>
+<div class="container">
+    <video src="assets/img/webdecor/BA - Arona 1.mp4" class="back-ground" autoplay muted loop></video>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "nav-bar") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </html>
+</body>
